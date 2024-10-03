@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------
+			Style commun à tous les éléments dans le BODY 
+On souhaite placer nous même le BODY, et donc tous ses élements
+(cf. position:absolute) :
+	1. Le BODY commencera avec une distance par rapport à la bordure gauche
+	2. A l'interieur du BODY, les élements pourront être placés suivant
+	   un positionnement FLOAT.
+----------------------------------------------------------------------------*/
+body
+{ 
+position:absolute;
+left:500px;
+background-color:lightgrey; 
+text-align:center;
+font-family:Tahoma,Arial;
+font-size:14pt;
+color:black;
+}
+
+/* Paragraphes */
+p 
+{ 
+margin-bottom:5px;
+font-size:85%; 
+}
+
+/* Le formulaire */
+form 
+{ width:350px; }
+
+/* Les étiquettes */
+label { margin-top:10px; margin-bottom:10px; display:block; }
+label.inline { display:inline }
+
+/* Elements DIV */
+.masqué 	
+{
+visibility : hidden ;
+}
+
+.affiché
+{
+visibility: visible; 
+}
